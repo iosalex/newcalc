@@ -1,12 +1,26 @@
-<!doctype html>
-<html lang="en">
+
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-
-  <title>#(title)</title>
+    <meta charset="UTF-8">
+    <title>Vapor Calculator</title>
 </head>
-
 <body>
-  <h1>#(title)</h1>
+    <h2>Сложение чисел</h2>
+
+    <form action="/add" method="post">
+        <input type="number" name="a" value="#(a)">
+        <input type="number" name="b" value="#(b)">
+        <br><br>
+        <button type="submit">Сложить</button>
+    </form>
+
+    <br>
+
+    <form action="/clear" method="post">
+        <button type="submit">Сбросить</button>
+    </form>
+
+    <h3>Результат: #(result)</h3>
 </body>
 </html>
