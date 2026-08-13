@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "newcal",
+    name: "newcalc",
     platforms: [
        .macOS(.v13)
     ],
