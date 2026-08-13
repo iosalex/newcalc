@@ -1,6 +1,6 @@
 
-FROM swift:6.0-jammy
 
+FROM swift:6.3-jammy
 WORKDIR /app
 
 COPY . .
